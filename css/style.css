@@ -1,0 +1,19 @@
+.banner-img-1{
+    background-image: url("../images/slider-1.jpg");
+    height: 100vh;
+}
+.banner-img-2{
+    background-image: url("../images/slider-2.jpg");
+    height: 100vh;
+}
+.banner-img-3{
+    background-image: url("../images/slider-3.jpg");
+    height: 100vh;
+}
+.banner-mg{
+    background-image: url("../images/banner.png");
+   
+}
+.btn-primary-2{
+    background-color: #B68C5A;
+}
