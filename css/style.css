@@ -24,6 +24,9 @@ font-family: "Poppins", sans-serif;
 .btn-primary-2:hover {
   background-color: #b68c5a;
 }
-.carousel-client-icon {
-  
+.text-dark-2 {
+  color: #414040;
+}
+.text-dark-3 {
+  color: #707070;
 }
