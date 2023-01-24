@@ -146,47 +146,6 @@
 </header>
 
  <!-- header area end  -->
-
-
-
-
-
-
-    <!-- header area start -->
-    <!-- <header class="">
-      <section class="container mt-5">
-        <div class="banner-mg min-vh-100 d-flex align-items-center justify-content-center d-md-flex align-items-md-center justify-content-md-center mx-auto mx-md-auto p-5">
-          <div class="">
-            <div class="">
-              <h1 class="text-white fw-bold text-center">
-                We Provide Effective <br />
-                Legal Solutions
-              </h1>
-              <p class="text-white lh-lg text-center">
-                There are many variations of passages of Lorem Ipsum available, but the majority
-                <br />
-                have suffered alteration in some form, by injected humour.
-              </p>
-            </div>
-            <div
-              class="input-group gap-3 d-flex justify-content-center align-items-center  w-50% "
-            >
-              <input
-                type="text"
-                class="form-control rounded"
-                placeholder="Search your services"
-                aria-label="Recipient's username"
-                aria-describedby="button-addon2"
-              />
-              <button class="btn btn-primary-2 rounded" type="button" id="button-addon2">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </header> -->
-    <!-- header area end  -->
     <!-- main area start  -->
     <main>
       <!-- The Legal Practice Area strat -->
@@ -465,7 +424,7 @@
                     aria-controls="flush-collapseOne"
                   >
                     <strong>
-                      1. What is css box model?</strong
+                      1. What is difference between flexbox and grid?</strong
                     >
                   </button>
                 </h2>
@@ -476,7 +435,8 @@
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding.
+                    Flexbox: The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes.<br>
+                        Grid: CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
                   </div>
                 </div>
               </div>
@@ -490,7 +450,7 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    <strong>2. Difference flex and grid ?</strong>
+                    <strong>2. What is the purpose of media queries?</strong>
                   </button>
                 </h2>
                 <div
@@ -500,7 +460,7 @@
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                    An essential part of responsive design is creating the right user experience for each type of device. Media Queries make it possible to respond to a client browser with a customized display of a web page based on inherent properties of the device it is running on. Before a webpage is loaded and displayed by a browser, this media information is retrieved via media queries. The big advantage of CSS media queries is that appropriate resolutions and screen sizes do not have to be specified for each individual device. CSS media queries thus offer an easy way to align web pages to more than one type of output device and are therefore an important part of mobile optimization and responsive web design.
                   </div>
                 </div>
               </div>
@@ -514,7 +474,7 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    <strong>3. What is the use of media quarry?</strong>
+                    <strong>3. How does css box model works?</strong>
                   </button>
                 </h2>
                 <div
@@ -523,8 +483,9 @@
                   aria-labelledby="flush-headingThree"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
-Using media queries are a popular technique for delivering a tailored style sheet .(responsive web design) to desktops, laptops, tablets, and mobile phones. You can also use media queries to specify that certain styles are only for printed documents or for screen readers 
+                  <div class="accordion-body">Working within the world of HTML using CSS, site design is the ultimate goal. To reach that goal, you need to have an understanding of the way elements on a page are laid out. Quite simply, the CSS Box Model provides a guide to layout those elements. <br> The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. This approach accounts for options such as margins, padding, borders, and all the properties that manipulate them. <br>
+
+                    Each element can be thought of as having its own box. As all the elements on a page have to work together with each other, it is quite important to know just how each of those boxes works. This brief tutorial will help explain the box model for beginners.
                   </div>
                 </div>
               </div>
@@ -538,7 +499,7 @@ Using media queries are a popular technique for delivering a tailored style shee
                     aria-expanded="false"
                     aria-controls="flush-collapseFour"
                   >
-                    <strong>4. What is a semantic tag ?</strong>
+                    <strong>4. What is semantic tag</strong>
                   </button>
                 </h2>
                 <div
@@ -547,8 +508,10 @@ Using media queries are a popular technique for delivering a tailored style shee
                   aria-labelledby="flush-headingFour"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
-The semantic is HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read.
+                  <div class="accordion-body">Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a p tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+
+                    On the flip side of this equation, tags such as b and i are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.
+
                   </div>
                 </div>
               </div>
@@ -637,18 +600,18 @@ The semantic is HTML tags help the search engines and other user devices to dete
     <footer class="mt-5 bg-dark">
         <div class="container py-5">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 d-flex flex-column align-items-center">
               <div><img class="mb-3" src="images/logo.png" alt=""></div>
               <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="col-md-2 text-white">
+            <div class="col-md-2 text-white d-flex flex-column align-items-center">
               <h3 class="mb-3">Useful Links</h3>
               <p><a class="text-decoration-none text-white" href="">Home</a></p>
               <p><a class="text-decoration-none text-white" href="">about</a></p>
               <p><a class="text-decoration-none text-white" href="">Contact us</a></p>
               <p><a class="text-decoration-none text-white" href="">Login</a></p>
             </div>
-            <div class="col-md-2 text-white">
+            <div class="col-md-2 text-white d-flex flex-column align-items-center">
               <h3 class="mb-3">Contact Now</h3>
               <p><a class="text-decoration-none text-white" href="">555 4th 5t NW, Washington
                 DC 20530, United States</a></p>
@@ -657,7 +620,7 @@ The semantic is HTML tags help the search engines and other user devices to dete
               <p><a class="text-decoration-none text-white" href="">info@gmail.com <br>
                 info@gmail.com</a></p>
             </div>
-            <div class="col-md-4 text-white">
+            <div class="col-md-4 text-white d-flex flex-column align-items-center">
               <h3 class="mb-3">Subscribe</h3>
               <p>Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
               <div class="input-group mb-3 w-75">
